@@ -114,12 +114,21 @@ In this chapter you are going to see how to create a couple of services instance
 1. This time select the **ASUG** subaccount which corresponds to your **SAP Neo** environment 
 	![](images/25.png)
 
-1. Select **Connectivity -> Destinayions** on the left hand side and just make sure that the **ErpQueryEndpoint** destination is correctly in place. Here we have already imported this destination since all the users will share it in the next exercises
+1. Select **Connectivity -> Destinations** on the left hand side and just make sure that the **ErpQueryEndpoint** destination is correctly in place. Here we have already imported this destination since all the users will share it in the next exercises
 	![](images/26.png)
+
+1. Finally, click on **Services**, enter the text "**web**" in the search box, and click on the **SAP Web IDE Full-Stack** tile  
+	![](images/27.png)
+
+1. Click on **Go to Service**  
+	![](images/28.png)
+
+1. The **SAP Web IDE** tools is launched. Please bookmark this URL becaue it will be used in the next exercises  
+	![](images/29.png)
 
 1. Congratulations! You have successfully completed this exercise.
 
 
 
 ## Summary
-This concludes the exercise. You should have learned how to create a new application with the Application Programming Model template in SAP Web IDE Full-Stack and how to create in the same project a frontend application to consume your business partners service. Please proceed with the next exercise.
+This concludes the exercise. You should have learned how to create a XSUAA service instance in SAP Cloud Foundry and a Destination service instance in SAP Cloud Foundry. Please proceed with the next exercise.
