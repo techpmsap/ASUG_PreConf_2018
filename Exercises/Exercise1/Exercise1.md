@@ -8,7 +8,7 @@
 ## Description
 In this exercise, you’ll learn how to 
 
-* create a XSUAA service instance in SAP Cloud Foundry
+* access SAP Cloud Platform NEO and Cloud Foundry environments
 * create a Destination service instance in SAP Cloud Foundry and import the required destination 
 
 
@@ -32,47 +32,26 @@ Here below are prerequisites for this exercise.
 
 ## Steps
 
-1. [Create the XSUAA and the destination services on SAP CF and check the Neo environemnt](#xsuaa-destination)
+1. [Create the destination services on SAP CF and check the Neo environemnt](#bpr-destination)
+1. [Check the Neo environemnt](#neo-environment)
 
 
-
-### <a name="xsuaa-destination"></a>Create the XSUAA and the destination services on SAP CF and check the Neo environemnt
+### <a name="bpr-destination"></a>Create the XSUAA and the destination services on SAP CF
 In this chapter you are going to see how to create a couple of services instances(XSUAA, destination) on SAP Cloud Foundry and how to import a destination file into the destination instance.
 
-1. Login to SAP Cloud Platform <https://account.hana.ondemand.com/cockpit#/globalaccount/8fd39023-a237-4d71-9b6a-ed9d1719d275/subaccounts> with the credentials provided by your instructor 
+1. Login to SAP Cloud Platform <https://account.hana.ondemand.com/cockpit#/globalaccount/8fd39023-a237-4d71-9b6a-ed9d1719d275/subaccount/1d4a4a5d-2ada-4584-9c6a-631cb5fa80f2/spaces> with the credentials provided by your instructor 
 	![](images/01.png)
 
-1. You will find two environments prepared for you: **ASUG** and **ASUGCF**. The first one, **ASUG**, is your SAP CP Neo environment and the other one, **ASUGCF**, is your SAP Cloud Foundry environment. Let's start with Cloud Foundry. Click on the **ASUGCF** tile  
+1. You will find a SAP Cloud Foundry subaccount prepared for you with a space named **ASUGCF_DevXXX** where XXX is your workstation ID. Click on the **ASUGCF** link on the top of the page to go to the subaccount's details  
 	![](images/02.png)
 
-1. Take note of the **API Endpoint** you find on the right side because it will be required in the next exercises when we will ask you to specify your SAP Cloud Foundry API Endpoint and click on **Spaces**  
+1. Take note of the **API Endpoint** you find on the right side because it will be required in the next exercises when we will ask you to specify your SAP Cloud Foundry API Endpoint and click on the **Spaces** number, just above the API Endpoint    
 	![](images/03.png)
 
-1. Locate the space named **ASUGCF_DevXX** where **XX** is your **workstation ID** provided by your instructor and click on it  
+1. You are now into your space. It should be empty: if not, please feel free to delete any application you find  
 	![](images/04.png)
 
-1. Click on **Service Marketplace** and choose the **Authorization & Trust Management** tile  
-	![](images/05.png)
-
-1. Select **Instances** on the left hand side and click on the **New Instance** button to create a new instance of this XSUAA service  
-	![](images/06.png)
-
-1. Select the **application** plan and click **Next**  
-	![](images/07.png)
-
-1. Click **Next**  
-	![](images/08.png)
-
-1. Just click **Next** again  
-	![](images/09.png)
-
-1. Enter **bpr_xsuaa** as the instance name and click **Finish**  
-	![](images/10.png)
-
-1. Your XSUAA instance has been successfully created. Click on the **ASUGCF_DevXX** link on the toolbar to go back to your space  
-	![](images/11.png)
-
-1. Click again on the **Service MArketplace** to create an instance of the **destination** service  
+1. Click on the **Service Marketplace** and then on the **destination** tile to create an instance of the **destination** service  
 	![](images/12.png)
 
 1. Click on **Instances** and then on **New Instance**  
@@ -108,16 +87,26 @@ In this chapter you are going to see how to create a couple of services instance
 1. You should get the message **Connection to "ErpQueryEndpoint"" established. Response returned: "302: Redirect"**. Click on **Close**  
 	![](images/23.png)
 
-1. Go back to your Global Account by clicking on the **TechEd2018** link on the top of the page
+
+### <a name="neo-environment"></a>Check the Neo environemnt
+Let's gie a look now to the NEO environment and let's check that everything is in place.
+
+1. Click on this link <https://account-ovb9vknezv.hana.ondemand.com/cockpit#/home/allaccounts> and enter the credentials for the NEO environment provided by your instructor
 	![](images/24.png)
 
-1. This time select the **ASUG** subaccount which corresponds to your **SAP Neo** environment 
-	![](images/25.png)
+1. Just click on **Confirm** in case you receive this kind of message  
+	![](images/24_2.png)
+
+1. Click on the **TechEd2018** Global Account  
+	![](images/24_3.png)
+
+1. Click on the **ASUG** subaccount  
+	![](images/24_4.png)
 
 1. Select **Connectivity -> Destinations** on the left hand side and just make sure that the **ErpQueryEndpoint** destination is correctly in place. Here we have already imported this destination since all the users will share it in the next exercises
 	![](images/26.png)
 
-1. Finally, click on **Services**, enter the text "**web**" in the search box, and click on the **SAP Web IDE Full-Stack** tile  
+1. Click on **Services**, enter the text "**web**" in the search box, and click on the **SAP Web IDE Full-Stack** tile  
 	![](images/27.png)
 
 1. Click on **Go to Service**  
@@ -131,4 +120,5 @@ In this chapter you are going to see how to create a couple of services instance
 
 
 ## Summary
-This concludes the exercise. You should have learned how to create a XSUAA service instance in SAP Cloud Foundry and a Destination service instance in SAP Cloud Foundry. Please proceed with the next exercise.
+This concludes the exercise. You should have learned how to create a Destination service instance in SAP Cloud Foundry. Please proceed with the next exercise.
+ 
