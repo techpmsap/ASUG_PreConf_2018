@@ -1,7 +1,7 @@
 <table width=100% border=>
 <tr><td colspan=2><img src="images/spacer.png"></td></tr>
 <tr><td colspan=2><h1>EXERCISE 1 - Create service destinations on both SAP Cloud Platform Neo and Cloud Foundry environments</h1></td></tr>
-<tr><td><h3>ASUG PreConference 2018</h3></td><td><h1><img src="images/clock.png"> &nbsp;60 min</h1></td></tr>
+<tr><td><h3>ASUG PreConference 2018</h3></td><td><h1><img src="images/clock.png"> &nbsp;10 min</h1></td></tr>
 </table>
 
 
