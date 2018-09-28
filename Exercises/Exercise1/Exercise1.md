@@ -91,7 +91,7 @@ In this chapter you are going to see how to create a couple of services instance
 ### <a name="neo-environment"></a>Check the Neo environemnt
 Let's gie a look now to the NEO environment and let's check that everything is in place.
 
-1. Click on this link <https://account-ovb9vknezv.hana.ondemand.com/cockpit#/home/allaccounts> and enter the credentials for the NEO environment provided by your instructor
+1. Click on this link <https://account.hana.ondemand.com/cockpit> and enter the credentials for the NEO environment provided by your instructor
 	![](images/24.png)
 
 1. Just click on **Confirm** in case you receive this kind of message  
