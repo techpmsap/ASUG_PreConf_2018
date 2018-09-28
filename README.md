@@ -1,14 +1,14 @@
 # ASUG PreConference 2018
-S/4HANA Cloud Scenario: Extensibility for the digital core processes (hands-on) - 2018.
+**Extend the digital core of S/4HANA Cloud**
+ 
+With the SAP Web IDE and the Application Programming Model you now have one place to do all of your extension development. From UI to Business Logic to Database, you can now do it all in the SAP Web IDE and build and deploy to SAP Cloud Platform.
+In this hands on session, you will use SAP Cloud Platform and SAP Web IDE to extend the S/4HANA Cloud core process by:
 
-The SAP S/4HANA Cloud SDK reduces your eﬀort when you start to develop an application by providing all the necessary libraries and project templates to get going quickly on SAP Cloud Platform.  
-In this hands on session, you will use SAP Cloud Platform to extend the S/4HANA Cloud core process by:
-
-* Use the S/4HANA Cloud SDK and the cloud development tool “SAP Web IDE Full-Stack”
 * Create a project using the Application Programming Model
 	- Create the business logic service with Java
 	- Develop the front-end application that showcases the extension of S/4AHNA Cloud core process
-
+* Use the S/4HANA Cloud SDK to connect to S/4HANA APIs
+ 
 
 # PREREQUISITES
 Prerequisites for “*S/4HANA Cloud Scenario: Extensibility for the digital core processes (hands-on)*”:
