@@ -202,4 +202,4 @@ Now that our application can be ran without the Launchpad, let's create a tile f
 
 ## Summary
 This concludes the exercise. You should have learned how to adapt the application we built in the previous exercise to be ran without the Launchpad and how to create a new tile for it in the S/4HANA Cloud launchpad.
-
+Back to the [exercise index page](../../README.md)

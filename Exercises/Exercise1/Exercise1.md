@@ -120,5 +120,5 @@ Let's gie a look now to the NEO environment and let's check that everything is i
 
 
 ## Summary
-This concludes the exercise. You should have learned how to create a Destination service instance in SAP Cloud Foundry. Please proceed with the next exercise.
+This concludes the exercise. You should have learned how to create a Destination service instance in SAP Cloud Foundry. Please proceed with the [next exercise](../Exercise2/Exercise2.md).
  

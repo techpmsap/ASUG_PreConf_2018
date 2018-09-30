@@ -589,4 +589,4 @@ In our project, we want now to use an external service like the one for retrievi
 
 
 ## Summary
-This concludes the exercise. You should have learned how to create a new application with the Application Programming Model template in SAP Web IDE Full-Stack and how to create in the same project a frontend application to consume your business partners service. Please proceed with the next exercise.
+This concludes the exercise. You should have learned how to create a new application with the Application Programming Model template in SAP Web IDE Full-Stack and how to create in the same project a frontend application to consume your business partners service. Please proceed with the [next exercise](../Exercise2/Exercise3.md).
