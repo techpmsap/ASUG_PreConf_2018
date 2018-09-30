@@ -36,8 +36,8 @@ Here below are prerequisites for this exercise.
 1. [Check the Neo environemnt](#neo-environment)
 
 
-### <a name="bpr-destination"></a>Create the XSUAA and the destination services on SAP CF
-In this chapter you are going to see how to create a couple of services instances(XSUAA, destination) on SAP Cloud Foundry and how to import a destination file into the destination instance.
+### <a name="bpr-destination"></a>Create the destination services on SAP CF and check the Neo environment
+In this chapter you are going to see how to create an instance of the destination service on SAP Cloud Foundry and how to import a destination file into it.
 
 1. Login to SAP Cloud Platform <https://account.hana.ondemand.com/cockpit#/globalaccount/8fd39023-a237-4d71-9b6a-ed9d1719d275/subaccount/1d4a4a5d-2ada-4584-9c6a-631cb5fa80f2/spaces> with the credentials provided by your instructor 
 	![](images/01.png)
@@ -103,7 +103,7 @@ Let's gie a look now to the NEO environment and let's check that everything is i
 1. Click on the **ASUG** subaccount  
 	![](images/24_4.png)
 
-1. Select **Connectivity -> Destinations** on the left hand side and just make sure that the **ErpQueryEndpoint** destination is correctly in place. Here we have already imported this destination since all the users will share it in the next exercises
+1. **[Read and Check Only]** Select **Connectivity -> Destinations** on the left hand side and just make sure that the **ErpQueryEndpoint** destination is correctly in place. Here we have already imported this destination since all the users will share it in the next exercises
 	![](images/26.png)
 
 1. Click on **Services**, enter the text "**web**" in the search box, and click on the **SAP Web IDE Full-Stack** tile  
