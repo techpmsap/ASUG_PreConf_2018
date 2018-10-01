@@ -191,11 +191,14 @@ Now that our application can be ran without the Launchpad, let's create a tile f
 1. Refresh the browser  
 	![](images/32.png)
 
-1. You should find the new tile in the **Extensibility** catalog  
+1. You should find the new tile in the **Extensibility** catalog. Click on this tile  
 	![](images/33.png)
 
-1. Click on it and the application should open successfully
+1. Select the right identity provider  
 	![](images/34.png)
+
+1. The application should open successfully
+	![](images/35.png)
 
 1. Congratulations! You have successfully completed this exercise.
 
